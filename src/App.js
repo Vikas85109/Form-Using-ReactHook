@@ -20,7 +20,7 @@ const Update=()=>{
     <>
       <div className="main">
         <h1>Hello {fullName}</h1>
-        <input onChange={value} type="text" name="" id="" />
+        <input onChange={value} type="text" name="" id="" placeholder="Enter Your Text"/>
         <div><button onClick={Update}>Click Me</button></div>
       </div>
     </>
